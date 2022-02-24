@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.custom_player_models.hatchi.root": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"enabled": "1"
+						}
+					]
+				},
+				"enabled": {
+					"transitions": [
+						{
+							"default": "0"
+						}
+					],
+					"animations": [
+						{
+							"hatchi_sneaking" : "q.get_name == 'Hatchibombotar' && query.is_sneaking"
+						}
+					]
+				}
+			}
+		}
+	}
+}

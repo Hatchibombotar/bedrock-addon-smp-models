@@ -1,0 +1,1 @@
+q.get_name == 'Hatchibombotar' ? 1 : (q.get_name == 'yanasakana' ? 2 : (q.get_name == 'LuthTwo' ? 3 : 0))

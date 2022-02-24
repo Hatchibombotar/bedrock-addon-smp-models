@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Nice models",
+        "name": "BA",
+        "uuid": "23c6e9a8-3093-462a-9c36-dbb032164322",
+        "version": [1, 0, 0],
+        "min_engine_version": [ 1, 17, 0 ]
+    },
+    "modules": [
+        {
+            "description": "models",
+            "type": "resources",
+            "uuid": "743f6954-53be-44b6-b326-328005028519",
+            "version": [1, 0, 0]
+        }
+    ]
+}

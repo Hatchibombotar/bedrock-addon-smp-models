@@ -1,0 +1,24 @@
+{
+  "name": "bedrock-addon-models",
+  "author": "Hatchibombotar",
+  "packs": {
+    "behaviorPack": "./packs/BP",
+    "resourcePack": "./packs/RP"
+  },
+  "regolith": {
+    "profiles": {
+      "dev": {
+        "filters": [
+          {
+            "url": "github.com/Hatchibombotar/useful-regolith-filters//molang_insert"
+          }
+        ],
+        "export": {
+          "target": "development",
+          "readOnly": false
+        },
+        "dataPath": "./packs/data"
+      }
+    }
+  }
+}
